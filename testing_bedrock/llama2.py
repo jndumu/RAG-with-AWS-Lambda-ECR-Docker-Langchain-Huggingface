@@ -12,6 +12,7 @@ prompt="""
 
 bedrock=boto3.client(service_name="bedrock-runtime")
 
+
 payload={
     
     "prompt": "[INST]"+prompt+"[/INST]",
